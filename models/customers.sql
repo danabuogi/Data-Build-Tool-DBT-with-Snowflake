@@ -1,11 +1,3 @@
-name: 'jaffle_shop'
-
-models:
-  jaffle_shop:
-    +materialized: table
-    example:
-      +materialized: view
-
 with customers as (
 
     select
